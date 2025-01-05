@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", serif;
+    background: linear-gradient(red,blue);
+    color: bisque;
+    
+}
+h1,h2,h3,h4,p{
+    text-shadow: 2px -3px 3px black;
+}
+#bud-img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid violet;
+
+}
+#bday-age,#bday-date{
+    background: fuchsia;
+    padding: 5px 4px;
+    border-radius: 10px;
+    margin: 4px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    background-image: url("birthd.jpg");
+    background-size: contain;
+    width: 600px;
+    height: 400px;
+    border: 6px solid whitesmoke;
+    border-radius: 10px;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+#gift-img-happy:hover{
+    background-image: url("love.webp");
+}
+#gift-img-reaction:hover{
+    background-image: url("raction.webp");
+}
+#gift-img-genius:hover{
+    background-image: url("genius.webp");
+}
+#gift-img-badass:hover{
+    background-image: url("badass.webp");
+}
+#gift-img-cheers{
+    width: 400px;
+    align-items: center;
+}
+#gift-img-cheers:hover{
+    background-image: url("cheers.webp");
+}
+#footer{
+    color: bisque;
+    width: 400px;
+    font-style: italic;
+}
